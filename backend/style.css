@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+background-color: #333;
+overflow: hidden;
+}
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.report {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.report th, .report td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.report th {
+    background-color: #f2f2f2;
+}
+.report tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.report tr:hover {
+    background-color: #ddd;
+}
+.success-message {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    background-color: #dff0d8; /* Light green background color */
+    color: #3c763d; /* Dark green text color */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d6e9c6; /* Light green border */
+    border-radius: 4px;
+}
+
+.success-message a {
+    color: #31708f; /* Blue link color */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.success-message a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
